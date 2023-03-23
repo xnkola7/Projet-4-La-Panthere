@@ -607,6 +607,14 @@ a[data-lightbox]:hover img {
     opacity: 0.3;
 }
 
+.col-sm-123 {
+    display: flex;
+    align-content: stretch;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
 .close-lightbox:hover,
 .next-lightbox:hover,
 .prev-lightbox:hover {
@@ -687,6 +695,14 @@ p {
     font-size: 20px;
 }
 
+.Row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    margin-left: 330px;
+    color: black;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -709,6 +725,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    padding-bottom: 40px;
 }
 
 h2 {
@@ -745,7 +762,7 @@ h4 {
 .white {
     color: #000000 !important;
     font-size: 15px;
-    margin-bottom: 40px;
+   
 }
 
 .portfolio-thumb {
