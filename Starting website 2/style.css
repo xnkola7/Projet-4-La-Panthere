@@ -316,10 +316,11 @@ a:hover {
 }
 
 .navbar .nav {
-    padding-top: 2px;
-    margin-right: -16px;
-    float: right;
     z-index: 1;
+}
+
+.navbar .nav1{
+    
 }
 
 .nav>li {
@@ -513,8 +514,14 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgb(0 0 0);
     box-shadow: none;
+    position: relative;
+    top: 5px;
+    display: flex;
+    width: 75%;
+    height: 30px;
+    background-color: #fcd3bf;
 }
 
 .scrollToTop {
@@ -613,6 +620,14 @@ a[data-lightbox]:hover img {
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
+    position: relative;
+    left: 140px;
+}
+
+.col-sm-7{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
 }
 
 .close-lightbox:hover,
@@ -667,6 +682,10 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #000000 !important;
+}
+
+.form-group{
+    margin-bottom: 10px;
 }
 
 .container {
@@ -744,6 +763,12 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
+}
+
+.col-sm-8{
+    position: absolute;
+    left: 820px;
+    bottom: 250px;
 }
 
 h1 {
