@@ -743,7 +743,8 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF !important;
+    color: #000000 !important;
+    background-color: #f3976c;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -908,6 +909,58 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+
+    .col-sm-7 {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .cta-hero {
+        margin-top: 22px;
+        color: #010101 !important;
+        text-transform: uppercase;
+        padding: 12px 28px 12px 28px;
+        font-size: 16px;
+        font-weight: 700;
+        background-color: #f3976c;
+        position: relative;
+        left: 550px;
+        bottom: 150px;
+    }
+
+    .col-sm-8 {
+        position: absolute;
+        left: 403px;
+        bottom: 387px;
+    }
+
+    .col-sm-123 {
+        display: flex;
+        align-content: stretch;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        left: 10px;
+    }
+
+    .site-navigation {
+        position: absolute;
+        top: 50%;
+        right: 90px;
+        transform: translate(0, -50%);
+        -webkit-transform: translateY(-50%);
+    }
+
+    .Row {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        margin-left: 212px;
+        color: black;
+    }
+    
+    
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -957,8 +1010,63 @@ h4 {
 }
 
 @media (max-width: 767px) {
+
+    .Row {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        margin-left: 15px;
+        color: black;
+    }
+
+    .portfolio-thumb {
+        margin-bottom: 20px;
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .social{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        left: 15px;
+        position: relative;
+    }
+
+    .col-sm-123 {
+        display: flex;
+        align-content: stretch;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        left: 6px;
+    }
+
+    .col-sm-7 {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
     .page-container {
         overflow-x: hidden;
+        position: relative;
+    }
+
+    .col-sm-8 {
+        position: initial;
+    }
+
+    .form-group1 textarea {
+        width: 369px;
+        height: 127px;
+    }
+
+    .btn-atomic-tangerine1 {
+        background: #F3976C;
+        color: #000000 !important;
+        left: 114px;
         position: relative;
     }
 
