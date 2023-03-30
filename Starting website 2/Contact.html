@@ -13,11 +13,11 @@
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 
 
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
+	<script defer src="./js/jquery-2.1.0.min.js"></script>
+	<script defer src="./js/bootstrap.min.js"></script>
+	<script defer src="./js/blocs.min.js"></script>
+	<script defer src="./js/jqBootstrapValidation.js"></script>
+	<script defer src="./js/formHandler.js"></script>
 	<title>Contact</title>
 
 
@@ -39,12 +39,10 @@
 						<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg"
 								alt="atlanta web design logo" height="40" /></a>
 					</div>
-					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-						<ul class="site-navigation nav navbar-nav1">
-							<li>
-								<a href="index.html">Accueil</a>
-					        </li>
-						</ul>
+					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav1">
+						<div class="site-navigation nav navbar-nav1">
+								<a href="index.html">Accueil</a> 
+						</div>
 					</div>
 				</nav>
 			</div>
@@ -74,8 +72,7 @@
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-7">
-						<form id="form_1" novalidate success-msg="Your message has been sent."
-							fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+						<form id="form_1">
 							<div class="form-group">
 								<label>
 									Nom
@@ -94,7 +91,7 @@
 								</label>
 								<input class="form-control" type="email" required id="input_504" />
 							</div>
-							<div class="form-group">
+							<div class="form-group1">
 								<label>
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 								</label><textarea id="message" class="form-control" rows="4" cols="50"
@@ -125,33 +122,6 @@
 						<p class="text-center white">
 							Agence La Panthère - Agence web basée à Lyon.<br>
 						</p>
-						<div class="row row-no-gutters social">
-							<div class="col-sm-3">
-								<div class="text-center">
-									<a class="social" href="https://twitter.com/home" aria-label="twitter"><span
-											class="fa fa-twitter icon-md"></span></a>
-								</div>
-							</div>
-							<div class="col-sm-3">
-								<div class="text-center">
-									<a class="social" href="https://fr-fr.facebook.com/" aria-label="facebook"><span
-											class="fa fa-facebook icon-md"></span></a>
-								</div>
-							</div>
-							<div class="col-sm-3">
-								<div class="text-center">
-									<a class="social" href="https://dribbble.com/" aria-label="driblle"><span
-											class="fa fa-dribbble icon-md"></span></a>
-								</div>
-							</div>
-							<div class="col-sm-3">
-								<div class="text-center">
-									<a class="social" href="https://www.instagram.com/" aria-label="instagram"><span
-											class="fa fa-instagram icon-md"></span></a>
-								</div>
-							</div>
-						</div>
-
 					</div>
 				</div>
 			</div>
