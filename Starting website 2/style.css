@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none !important;
+
 }
 
 a:hover {
@@ -317,12 +317,11 @@ a:hover {
 
 .navbar .nav {
     z-index: 1;
+    list-style-type: none;
 }
 
-.nav.navbar-nav1 {
-    position: absolute;
-    right: 200px;
-    top: 40px;
+.nav.navbar-nav1 a {
+    text-decoration: none;
 }
 
 
@@ -341,9 +340,10 @@ a:hover {
     background: transparent;
 }
 
-.navbar-toggle {
+.navbar-toggle1 {
     margin: 10px 10px 0 0;
     border: 0px;
+    visibility: hidden;
 }
 
 .navbar-toggle:hover {
@@ -469,10 +469,6 @@ nav .caret {
 .btn-d:focus {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
-}
-
-button {
-    outline: none !important;
 }
 
 .btn-rd {
@@ -605,7 +601,7 @@ a[data-lightbox]:hover img {
     background: rgba(0, 0, 0, .5);
     position: absolute;
     left: 15px;
-    right: 15px;
+    right: 15px;                        
     bottom: 5px;
 }
 
@@ -629,8 +625,6 @@ a[data-lightbox]:hover img {
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
-    position: relative;
-    left: 140px;
 }
 
 .col-sm-7 {
@@ -839,7 +833,7 @@ h4 {
     color: #ffffff !important;
 }
 
-.tc-white1{
+.tc-white1 {
     color: #000000;
 }
 
@@ -927,14 +921,12 @@ h4 {
         font-size: 16px;
         font-weight: 700;
         background-color: #f3976c;
-        position: relative;
-        left: 550px;
-        bottom: 150px;
+       
     }
 
     .col-sm-8 {
         position: absolute;
-        left: 403px;
+        left: 389px;
         bottom: 387px;
     }
 
@@ -963,8 +955,8 @@ h4 {
         margin-left: 212px;
         color: black;
     }
-    
-    
+
+
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -976,6 +968,14 @@ h4 {
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-width: 991px) {
+    .nav.navbar-nav1 {
+        position: absolute;
+        right: 90px;
+        top: 25px;
     }
 }
 
@@ -1029,7 +1029,7 @@ h4 {
         margin-top: 80px;
     }
 
-    .social{
+    .social {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -1070,8 +1070,8 @@ h4 {
     .btn-atomic-tangerine1 {
         background: #F3976C;
         color: #000000 !important;
-        left: 114px;
-        position: relative;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     h1,
@@ -1093,6 +1093,7 @@ h4 {
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
+        background-color: #f0f0f0;
         float: none !important;
     }
 
@@ -1109,12 +1110,10 @@ h4 {
     }
 
     .nav>li {
-        margin-top: 0;
-        border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
+        margin-top: 0; 
         text-align: left;
         padding-left: 15px;
-        width: 100%;
+        width: 100%; 
     }
 
     .nav>li:hover {
