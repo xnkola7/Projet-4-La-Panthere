@@ -601,7 +601,7 @@ a[data-lightbox]:hover img {
     background: rgba(0, 0, 0, .5);
     position: absolute;
     left: 15px;
-    right: 15px;                        
+    right: 15px;
     bottom: 5px;
 }
 
@@ -921,7 +921,7 @@ h4 {
         font-size: 16px;
         font-weight: 700;
         background-color: #f3976c;
-       
+
     }
 
     .col-sm-8 {
@@ -1110,10 +1110,10 @@ h4 {
     }
 
     .nav>li {
-        margin-top: 0; 
+        margin-top: 0;
         text-align: left;
         padding-left: 15px;
-        width: 100%; 
+        width: 100%;
     }
 
     .nav>li:hover {
